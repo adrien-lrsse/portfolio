@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className='portfolio-navbar' fixed="top">
+    <Navbar expand="lg" className='portfolio-navbar ' fixed="top">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
