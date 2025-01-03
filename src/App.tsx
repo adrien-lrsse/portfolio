@@ -6,6 +6,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import Title from './pages/Title';
 import Timeline from './components/Timeline/Timeline';
 import Project from './pages/Project';
+import Logos from './components/Logos/Logos';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         {/* Les 2/3 premiers tiers pour la carte */}
         <div
           style={{
-            height: "80%", // 2/3 de la hauteur
+            height: "60%", // 2/3 de la hauteur
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -24,7 +25,16 @@ function App() {
         >
           <Title />
         </div>
-  
+        <div
+          style={{
+            height: "20%", // 2/3 de la hauteur
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Logos />
+          </div>
         {/* Le dernier tiers pour le texte */}
         <div
           style={{
