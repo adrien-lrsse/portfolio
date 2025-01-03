@@ -1,19 +1,17 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import NavBar from './Components/NavBar';
+import NavBar from './components/Navbar/NavBar';
 import { AiOutlineArrowDown } from "react-icons/ai";
-import Title from './Components/Title';
-import Timeline from './Components/Timeline';
-import Project from './Components/Project';
-import AnimatedCursor from 'react-animated-cursor';
+import Title from './pages/Title';
+import Timeline from './components/Timeline/Timeline';
+import Project from './pages/Project';
 
 function App() {
   return (
     
     <>
     <NavBar />
-     
       <Container fluid style={{ height: "100vh" }}>
         {/* Les 2/3 premiers tiers pour la carte */}
         <div
@@ -37,7 +35,10 @@ function App() {
           }}
         >
           <div className='infinite-arrow'>
+            <a href="#project">
+
           <AiOutlineArrowDown size={50} style={{color:"#4464AD"}} />
+            </a>
           </div>
         </div>
       </Container>

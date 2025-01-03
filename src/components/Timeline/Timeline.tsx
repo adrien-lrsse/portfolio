@@ -1,9 +1,8 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaGraduationCap } from "react-icons/fa6";
 import { PiCertificateFill } from "react-icons/pi";
 import { MdWork } from "react-icons/md";
-import { Badge } from 'react-bootstrap';
 import VerticalTimelineElementLayout from './VerticalTimelineElementLayout';
 function Timeline() {
   return (

@@ -1,7 +1,8 @@
 .portfolio-navbar{
     font-size: xx-large;
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
     position:fixed;
+    z-index: 1000;
 }
 
 .portfolio-navbar-brand{
