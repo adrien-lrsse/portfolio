@@ -11,8 +11,8 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='portfolio-navbar-link' href="#home">Project</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="#cursus">Cursus</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="#project">Project</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="#timeline">Timeline</Nav.Link>
             <Nav.Link className='portfolio-navbar-link' href="#link">About Me</Nav.Link>
           </Nav>
           <Button 
@@ -22,7 +22,7 @@ function NavBar() {
             rel="noopener noreferrer"
             
           >
-            Download CV
+            Download Resume
           </Button>
         </Navbar.Collapse>
       </Container>

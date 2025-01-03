@@ -5,6 +5,7 @@ import PortfolioCard from './Components/PortfolioCard';
 import NavBar from './Components/NavBar';
 import { AiOutlineArrowDown } from "react-icons/ai";
 import Title from './Components/Title';
+import Timeline from './Components/Timeline';
 
 function App() {
   return (
@@ -37,11 +38,12 @@ function App() {
           </div>
         </div>
       </Container>
-      <Container>
+      <Container id="project">
         <h1>Project</h1>
       </Container>
-      <Container>
-        <h1>Cursus</h1>
+      <Container id='timeline'>
+        <h1>Timeline</h1>
+        <Timeline />
       </Container>
       <Container>
         <h1>Stacks</h1>

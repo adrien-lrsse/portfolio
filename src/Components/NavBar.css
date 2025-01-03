@@ -1,5 +1,6 @@
 .portfolio-navbar{
     font-size: xx-large;
+    backdrop-filter: blur(10px);
 }
 
 .portfolio-navbar-brand{
