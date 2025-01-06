@@ -5,7 +5,7 @@ import { CodeBlock } from "react-code-blocks";
 function CompilerEN() {
     return (
         <>
-            <h1><Badge bg="#4464AD" className="stack-badge">Java</Badge></h1> 
+            <h3><Badge bg="#4464AD" className="stack-badge">Java</Badge></h3> 
 
             <Card style={{ marginTop: "" }}>
                 <Card.Body>

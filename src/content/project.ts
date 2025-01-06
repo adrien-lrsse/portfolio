@@ -32,6 +32,7 @@ export interface Project {
       description: "Panification d'itinéraire pour voitures électriques. Projet en équipé dont le but est de prévoir un trajet optimisé qui prend en compte la charge de la batterie et les points de recharge. Simuluation de la congestion du réseau de recharge.",
     //   imageUrl: "https://github.com/adrien-lrsse/route-planner-for-electric-cars/raw/master/app/data/readme/output_3.png",
       link: "https://github.com/adrien-lrsse/route-planner-for-electric-cars",
+      story: "/project/route-planner"
     },
     {
       id: 3,
