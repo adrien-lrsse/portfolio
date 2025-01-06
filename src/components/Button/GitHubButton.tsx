@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 
-import githubDarkLogo from "../assets/github_dark.png";
+import githubDarkLogo from "./../../assets/github_dark.png";
 
 function GitHubButton ({link}: {link: string}) {
     return (

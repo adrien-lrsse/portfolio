@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
-import GitHubButton from '../components/GitHubButton';
+import GitHubButton from '../components/Button/GitHubButton';
 import { projects } from '../content/project';
 import './project.css';
-import ViewStory from '../components/ViewStory';
+import ViewStory from '../components/Button/ViewStory';
 
 function Project() {
     return (

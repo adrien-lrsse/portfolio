@@ -16,7 +16,7 @@ import svelteLogo from '../../assets/logos/svelte.png'
 import viteLogo from '../../assets/logos/vite.png'
 
 
-export default function Logos() {
+export default function LogosComponent() {
     return (
         <div className="logos">
             <div className="logos-slide">
