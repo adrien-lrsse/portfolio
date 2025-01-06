@@ -10,6 +10,7 @@ export interface Project {
     description: string;
     imageUrl?: string; // URL de l'image pour la carte
     link?: string; // Lien pour en savoir plus sur le projet
+    story?: string;
   }
   
   export const projects: Project[] = [
@@ -21,6 +22,8 @@ export interface Project {
       description: "Ecriture d'un compilateur Ada en équipe de 4. Ecriture complète de la grammaire, de l'analyse lexicale, syntaxique et sémantique à la traduction en code assembleur ARM 32bist.",
     //   imageUrl: "https://laconsole.dev/images/articles/differences-langage-compile-interprete/schema-compilateur.png",
       link: "https://github.com/adrien-lrsse/canAda-compiler",
+      story: "/project/compiler"
+      
     },
     {
       id: 2,

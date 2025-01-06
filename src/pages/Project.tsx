@@ -20,7 +20,8 @@ function Project() {
                             <Row>
                                 <Col className="d-flex justify-content-between">
                                     {project.link && <GitHubButton link={project.link} />}
-                                    <ViewStory />
+                                    {project.story && <ViewStory link={project.story}/>}
+                                    
                                 </Col>
                             </Row>
                         </Card.Body>

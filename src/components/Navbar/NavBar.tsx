@@ -11,9 +11,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='portfolio-navbar-link' href="#project">Project</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="#timeline">Timeline</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="#link">About Me</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#project">Project</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#timeline">Timeline</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#link">About Me</Nav.Link>
           </Nav>
           <Button 
             className="ms-auto portfolio-navbar-button" 
