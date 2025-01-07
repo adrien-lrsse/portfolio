@@ -20,7 +20,7 @@ function Timeline() {
                     </p>
                     <h6>What did he do in Sherbrooke Université?</h6>
                     <ul>
-                        <li>1</li>
+                        <li>1</li>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Kb27sN5XPlMqN-_3eae0-klrW5hUtUmk0g&s
                         <li>2</li>
                     </ul>
             </>} />
@@ -30,7 +30,7 @@ function Timeline() {
             subtitle='ActualBuro, Dax, France' 
             content='' 
             detail={<>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Kb27sN5XPlMqN-_3eae0-klrW5hUtUmk0g&s" alt="Detail" style={{ width: '100%', marginBottom: '15px' }} />
+                <img src="https://www.francebleu.fr/s3/cruiser-production/2020/12/0f22fae5-fe43-4945-ae5e-2095a849e6e7/600_actuelburo_2.jpg" alt="Detail" style={{ width: '100%', marginBottom: '15px' }} />
                 <h6>What is Sherbrooke University?</h6>
                 <p style={{fontWeight:"300"}}>
                     L'université de Sherbrooke est une université francophone située à Sherbrooke, au Québec, Canada. Elle offre une large gamme de programmes d'études et est reconnue pour ses recherches innovantes et son engagement envers la communauté.

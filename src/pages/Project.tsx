@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import { Badge, Button, Card, Col, Container, Row } from 'react-bootstrap';
 import GitHubButton from '../components/Button/GitHubButton';
 import { projects } from '../content/project';
 import './project.css';
@@ -13,9 +13,13 @@ function Project() {
                     <Card className="h-100">
                        
                         <Card.Body className="card-body">
-                            <Card.Title>{project.title}</Card.Title>
-                            <Card.Subtitle>{project.subtitle}</Card.Subtitle>
-                            <Card.Subtitle>{project.date}</Card.Subtitle>
+                            <div className="d-flex flex-wrap">
+                                {project.badges && project.badges.map((badge) => (
+                                    <Badge bg='#4464AD' className='stack-badge my-1'>{badge}</Badge>
+                                ))}
+                            </div>
+                            <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">{project.date}</Card.Subtitle>
                             <Card.Text>{project.description}</Card.Text>
                             <Row>
                                 <Col className="d-flex justify-content-between">
