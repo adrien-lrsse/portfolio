@@ -14,8 +14,8 @@ function Project() {
                        
                         <Card.Body className="card-body">
                             <div className="d-flex flex-wrap">
-                                {project.badges && project.badges.map((badge) => (
-                                    <Badge bg='#4464AD' className='stack-badge my-1'>{badge}</Badge>
+                                {project.badges && project.badges.map((badge, index) => (
+                                    <Badge key={index} bg='#4464AD' className='stack-badge my-1'>{badge}</Badge>
                                 ))}
                             </div>
                             <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>

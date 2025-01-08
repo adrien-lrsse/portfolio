@@ -54,7 +54,7 @@ export interface Project {
       badges: ["JavaFX", "Architecture MVC","Teamwork"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Advent of Code 2023",
       date: "Décembre 2023",
       description: "Participation à l'Advent of Code 2023. L'advent of Code est un challenge de résolution de problèmes algorithmiques chaque jour du mois de décembre.J'ai utilisé ce challenge pour apprendre le langage Go.",
@@ -62,7 +62,7 @@ export interface Project {
       badges: ["Algorithmique", "Golang"]
     },
     {
-      id: 6,
+      id: 7,
       title: "Portfolio",
       date: "Janvier 2025",
       description: "Site web de présentation de mes projets. Projet personnel. Développement en React.",
@@ -70,7 +70,7 @@ export interface Project {
       badges: ["React / Vvite", "HTML / CSS", "Typescrypt", "Frontend"]
     },
     {
-      id: 7,
+      id: 8,
       title: "Shared Garden",
       date: "Octobre 2022 - Janvier 2023",
       description: "Site web de partage de jardin entre particuliers. Projet en équipe de 3. Développement en Python avec le framework Flask.",

@@ -3,10 +3,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaGraduationCap } from "react-icons/fa6";
 import { PiCertificateFill } from "react-icons/pi";
 import { MdWork } from "react-icons/md";
-import VerticalTimelineElementLayout from './VerticalTimelineElementLayout';
+import VerticalTimelineElementLayout from '../VerticalTimelineElementLayout';
 import { Container, Image } from 'react-bootstrap';
 
-function Timeline() {
+function TimelineFR() {
   return (
     <VerticalTimeline>
       {/* Maîtrise en génie logiciel */}
@@ -143,4 +143,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default TimelineFR;

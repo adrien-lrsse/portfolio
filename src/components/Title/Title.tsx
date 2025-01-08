@@ -6,9 +6,9 @@ function Title () {
         <>
         <Container>
         <Container style={{width: "fit-content", textAlign: "right"}}>
-            <h1>Hi! 🚀</h1>
+            <h1>Salut ! 🚀</h1>
             <div className='typewriter'>
-            <h1>I'm <span style={{color: "#4464AD", fontFamily: "Rock Salt"}}>Adrien Larousse&nbsp;</span></h1>
+            <h1>ici <span style={{color: "#4464AD", fontFamily: "Rock Salt"}}>Adrien Larousse&nbsp;</span></h1>
             </div>
         </Container>
         <Container style={{width: "fit-content", textAlign: "left"}}>
