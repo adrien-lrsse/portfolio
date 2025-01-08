@@ -12,7 +12,7 @@ i18n
     },
     lng: 'en',
     fallbackLng: 'en',
-    ns: ['navbar'],
+    ns: ['navbar', 'core_components'],
     defaultNS: 'common',
     interpolation: {
     escapeValue: false,
