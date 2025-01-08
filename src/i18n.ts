@@ -10,9 +10,9 @@ i18n
     backend: {
     loadPath: '/locales/{{lng}}/{{ns}}.json', // Chemin des fichiers
     },
-    lng: 'en',
-    fallbackLng: 'en',
-    ns: ['navbar', 'core_components', 'timeline'],
+    lng: 'fr',
+    fallbackLng: 'fr',
+    ns: ['navbar', 'core_components', 'timeline', "projects"],
     defaultNS: 'common',
     interpolation: {
     escapeValue: false,

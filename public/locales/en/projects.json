@@ -1,0 +1,46 @@
+{
+    "compiler": {
+        "title": "canAda",
+        "subtitle": "Java Compiler for the Ada Language",
+        "date": "October 2023 - May 2024",
+        "description": "Writing an Ada compiler in a team of 4. Complete writing of the grammar, lexical, syntactic, and semantic analysis to translation into 32-bit ARM assembly code.",
+        "badges": ["Java", "Team of 4", "Ada", "ARM 32-bit"]
+    },
+    "route-planner": {
+        "title": "Electric Car Route Planner",
+        "subtitle": "Algorithm and Data Structure Project",
+        "date": "March 2023 - June 2023",
+        "description": "Route planning for electric cars. Team project aimed at planning an optimized route that takes into account battery charge and charging points. Simulation of the congestion of the charging network.",
+        "badges": ["C", "Python & Flask", "HTML/CSS/JS", "Team of 4", "Algorithm", "Data Structure"]
+    },
+    "english-invader": {
+        "title": "English Invader",
+        "date": "January 2024 - March 2024",
+        "description": "Video game to learn English based on the principle of the Space Invader game. Team project of 2. The technologies for this project were free to choose, so I used it to learn React and Node.js self-taught.",
+        "badges": ["React", "Node.js", "Team of 2", "Frontend / Backend"]
+    },
+    "direct-dealing": {
+        "title": "Direct Dealing",
+        "date": "January 2024",
+        "description": "Software for selling goods and services between individuals. This project was carried out in a team of 4 as part of a school challenge over a week.",
+        "badges": ["JavaFX", "MVC Architecture", "Team of 4"]
+    },
+    "aoc-2023": {
+        "title": "Advent of Code 2023",
+        "date": "December 2023",
+        "description": "Participation in the Advent of Code 2023. 25-day programming challenge with increasingly difficult problems. I used this challenge to learn the Go language. Number of challenges completed: 13/25.",
+        "badges": ["Golang", "Algorithm"]
+    },
+    "shared-garden": {
+        "title": "Shared Garden",
+        "date": "October 2022 - January 2023",
+        "description": "Website for sharing gardens between individuals. Team project of 3. Development in Python with the Flask framework.",
+        "badges": ["Python & Flask", "Database", "HTML / CSS", "Javascript", "Team of 3"]
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "date": "January 2025",
+        "description": "Website showcasing my projects. Personal project. Development in React.",
+        "badges": ["React / Vite", "HTML / CSS", "Typescript", "Frontend"]
+    }
+}

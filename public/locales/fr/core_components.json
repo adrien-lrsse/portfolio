@@ -9,6 +9,8 @@
         "timeline_details" : {
             "show" : "Voir les détails",
             "hide" : "Cacher les détails"
-        }
+        },
+        "github" : "Voir sur GitHub",
+        "story" : "L'histoire"
     }
 }

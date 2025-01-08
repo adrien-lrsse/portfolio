@@ -1,12 +1,15 @@
 import { Container } from "react-bootstrap";
 import { IoIosArrowForward } from "react-icons/io";
 import "./viewStory.css";
-
+import { useTranslation } from "react-i18next";
 
 function ViewStory ({link} : {link : string}) {
+
+    const { t } = useTranslation('core_components');
+
     return (
         <a className="view-story" href={link}>
-            <p>View Story</p>
+            <p>{t("buttons.story")}</p>
             <IoIosArrowForward />
 
         </a>
