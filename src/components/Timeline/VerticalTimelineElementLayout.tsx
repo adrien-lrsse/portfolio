@@ -1,8 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Badge, Button } from 'react-bootstrap';
 import { VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './TimeLineElement.css'
+
+import { useTranslation } from 'react-i18next';
+import { use } from 'i18next';
 
 interface VerticalTimelineElementLayoutProps {
     title: string;
@@ -16,17 +19,23 @@ interface VerticalTimelineElementLayoutProps {
 
 function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, detail, badges }: VerticalTimelineElementLayoutProps) {
     
+    const { t } = useTranslation('core_components');
+
     const [show, setShow] = useState(false);
-    const [buttonText, setButtonText] = useState("Show Details")
+    const [buttonText, setButtonText] = useState(t("buttons.timeline_details.show"));
+
+    useEffect(() => {
+        setButtonText(t("buttons.timeline_details.show"))
+    }, [t]);
 
     const handleShow = () => {
         if (show) {
             setShow(false)
-            setButtonText("Show Details")
+            setButtonText(t("buttons.timeline_details.show"))
         }
         else {
             setShow(true)
-            setButtonText("Mask Details")
+            setButtonText(t("buttons.timeline_details.hide"))
         }
     }
     
