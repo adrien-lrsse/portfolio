@@ -1,0 +1,95 @@
+{
+    "udes" : {
+        "title" : "Maîtrise en génie logiciel",
+        "date" : "2024 - présent",
+        "subtitle" : "Université de Sherbrooke, Québec",
+        "content" : "Double diplôme avec Télécom Nancy. Approfondissement en génie logiciel, développement et gestion de projet.",
+        "details" : {
+            "fall" : {
+                "title" : "Automne 2024",
+                "list" : {
+                    "1" : "Méthodes formelles en génie logiciel",
+                    "2" : "Applications Internet et Mobilité",
+                    "3" : "Science des données",
+                    "4" : "Systèmes répartis et multi-agents"
+                }
+            },
+            "winter" : {
+                "title" : "Hiver 2025",
+                "list" : {
+                    "1" : "Gestion de projets",
+                    "2" : "Techniques et outils de développement",
+                    "3" : "Approches orientées objets",
+                    "4" : "Sujets approfondis en bases de données"
+                }
+            }
+        }
+    },
+    "actuelburo" : {
+        "title" : "Développeur d'application mobile multiplateforme - Stagiaire",
+        "date" : "Été 2023",
+        "subtitle" : "ActualBuro, Dax, France",
+        "content" : "Réalisation de preuves de concept avec React Native et Flutter pour une étude comparative afin d'explorer de nouvelles opportunités pour l'entrepise.",
+        "details" : {
+            "tasks" : {
+                "title" : "Tâches réalisées",
+                "list" : {
+                    "1" : "Réalisation d'un état de l'art sur le développement d'applications mobiles",
+                    "2" : "Développement de preuves de concept avec React Native et Flutter",
+                    "3" : "Comparaison des preuves de concept",
+                    "4" : "Mise en place d'un mono-repository et intégration avec Flutter"
+                }
+            },
+            "learnings" : {
+                "title" : "Apprentissages",
+                "list" : {
+                    "1" : "Frameworks : React Native et Flutter",
+                    "2" : "Architecture Mono-Repository"
+                }
+            }
+        }
+    },
+    "tncy" : {
+        "title" : "Ingénieur en Informatique",
+        "date" : "2022 - présent",
+        "subtitle" : "Télécom Nancy, France",
+        "content" : "Approfondissement en Sécurité et Réseaux Internet. Découverte de nombreux domaines de l'informatique : développement logiciel, IA, traitement d'image...",
+        "details" : {
+            "courses" : {
+                "title" : "Cours marquants",
+                "list" : {
+                    "1" : "Traduction : Cours sur la compilation",
+                    "2" : "CS54 : Algorithmie, Programmation Web & Base de données",
+                    "3" : "Structures de données et cours de C",
+                    "4" : "Programmation orientée objet",
+                    "5" : "Méthodes et outils de conception informatique"
+                }
+            }
+        }
+    },
+    "toeic" : {
+        "title" : "Certification TOEIC",
+        "date" : "Janvier 2023",
+        "subtitle" : "910/990",
+        "content" : "",
+        "details" : {
+            "description" : {
+                "title" : "Qu'est-ce que le TOEIC ?",
+                "content" : "Le TOEIC (Test of English for International Communication) mesure les compétences en anglais dans des contextes professionnels."
+            },
+            "score" : {
+                "title" : "Comprendre le score :",
+                "list" : {
+                    "1" : "Niveau B2 en Europe",
+                    "2" : "Équivalent à 4.5/5"
+                }
+            }
+        }
+    },
+    "cpge" : {
+        "title" : "Classe préparatoire aux grandes écoles - Filière Maths / Physique",
+        "date" : "Septembre 2020 - Juin 2022",
+        "subtitle" : "Lycée Michel de Montaigne, Bordeaux, France",
+        "content" : "Préparation aux concours nationaux pour intégrer une école d'ingénieurs en informatique."
+    }
+}

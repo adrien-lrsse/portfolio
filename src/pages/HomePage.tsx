@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import Project from './Project';
 import TitleComponent from '../components/Title/TitleComponent';
-import TimelineEN from '../components/Timeline/en/TimelineEN';
-import TimelineFR from '../components/Timeline/fr/TimelineFR';
+import Timeline from '../components/Timeline/Timeline';
 
 function HomePage() {
   return (
@@ -18,8 +17,7 @@ function HomePage() {
 
       <Container id='timeline' style={{paddingTop:'10vh'}}>
         <h1>Timeline</h1>
-        <TimelineFR />
-        <TimelineEN />
+        <Timeline />
       </Container>
       
       <Container>
