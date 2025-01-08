@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Badge, Button } from 'react-bootstrap';
 import { VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './TimeLineElement.css'
@@ -10,10 +10,11 @@ interface VerticalTimelineElementLayoutProps {
     icon: React.ReactNode;
     subtitle: string;
     content: string;
-    detail: React.ReactNode;
+    detail?: React.ReactNode;
+    badges? : string[];
 }
 
-function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, detail }: VerticalTimelineElementLayoutProps) {
+function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, detail, badges }: VerticalTimelineElementLayoutProps) {
     
     const [show, setShow] = useState(false);
     const [buttonText, setButtonText] = useState("Show Details")
@@ -38,18 +39,25 @@ function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, d
             icon={icon}
             contentArrowStyle={{ borderRight: '7px solid  #4464AD', color: '#fff' }}
         >
-            <h3 className="vertical-timeline-element-title">{title}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{subtitle}</h4>
+            <div className="d-flex flex-wrap">
+            {badges && badges.map((badge) => (
+                                    <Badge bg='#4464AD' className='stack-badge my-1'>{badge}</Badge>
+                                ))}
+            </div>
+            <h3 className="mb-2">{title}</h3>
+            <h4 className="mb-4 text-muted">{subtitle}</h4>
             <div>
             <p>
             {content}
             </p>
+            {detail && <>
             {show ? (
                 detail
             ) : null}
             <Button className='view-detail-button' onClick={handleShow}>{buttonText}</Button>
-
+            </>}
             </div>
+        
 
 
             
