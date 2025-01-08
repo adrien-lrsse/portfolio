@@ -6,11 +6,14 @@ import Layout from "./context/Layout";
 import ProjectLayout from "./components/Project/ProjectLayout";
 import Compiler from "./content/projects/compiler/Compiler";
 import RoutePlanner from "./content/projects/route_planner/RoutePlanner";
+import { Suspense } from "react";
 
+// Language Translation
+import './i18n';
 
 function App() {
   return (
-    
+    <Suspense fallback="loading">
     <Router>
       <Layout>
         <Routes>
@@ -24,6 +27,7 @@ function App() {
         </ProjectLayout>
       </Layout>
     </Router>
+    </Suspense>
   );
   
   
