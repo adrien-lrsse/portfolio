@@ -3,7 +3,7 @@
         "line1" : "Salut! ",
         "line2" : "ici"
     },
-    "subtitle" : "Développeur Full Stack",
+    "subtitle" : "Étudiant en ingénieurie logiciel",
     "description" : "Passionné par les nouvelles technologies et le développement web, je suis actuellement étudiant à l'Université de Sherbrooke en génie logiciel.",
     "buttons" : {
         "timeline_details" : {
@@ -12,5 +12,16 @@
         },
         "github" : "Voir sur GitHub",
         "story" : "L'histoire"
+    },
+    "section" : {
+        "projects" : {
+            "title" : "Projets"
+        },
+        "timeline" : {
+            "title" : "Parcours"
+        },
+        "about_me" : {
+            "title" : "À propos de moi"
+        }
     }
 }

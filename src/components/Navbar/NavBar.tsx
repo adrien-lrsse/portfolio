@@ -14,6 +14,7 @@ function NavBar() {
 
   const onChangeLang = (code: string) => {
     i18n.changeLanguage(code);
+    localStorage.setItem('lang', code);
   };
 
   return (

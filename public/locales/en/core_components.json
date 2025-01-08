@@ -3,7 +3,7 @@
         "line1" : "Hi! ",
         "line2" : "I'm"
     },
-    "subtitle": "Full Stack Developer",
+    "subtitle": "Software Engineering Student",
     "description": "Passionate about new technologies and web development, I am currently a student at the University of Sherbrooke in software engineering.",
     "buttons": {
         "timeline_details": {
@@ -12,5 +12,16 @@
         },
         "github": "View on GitHub",
         "story": "The story"
+    },
+    "section": {
+        "projects": {
+            "title": "Projects"
+        },
+        "timeline": {
+            "title": "Timeline"
+        },
+        "about_me": {
+            "title": "About me"
+        }
     }
 }
