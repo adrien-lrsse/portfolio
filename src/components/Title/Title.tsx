@@ -10,7 +10,7 @@ function Title () {
     return (
         <>
         <Container>
-        <Container style={{width: "fit-content", textAlign: "right", paddingTop: "10vh"}}>
+        <Container style={{width: "fit-content", textAlign: "right"}}>
             <h1>{t("title.line1")}🚀</h1>
             <div className='typewriter'>
                 <h1>{t("title.line2")}&nbsp;<span style={{color: "#4464AD", fontFamily: "Rock Salt"}}>Adrien Larousse&nbsp;</span></h1>

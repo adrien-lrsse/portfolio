@@ -5,7 +5,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 function TitleComponent(){
     return (
-        <Container fluid style={{ height: "100vh" }}>
+        <Container fluid style={{ height: "93vh", marginTop: "7vh" }}>
         {/* Les 2/3 premiers tiers pour la carte */}
         <div
           style={{
