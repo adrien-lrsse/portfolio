@@ -5,6 +5,7 @@ import Project from './Project';
 import TitleComponent from '../components/Title/TitleComponent';
 import Timeline from '../components/Timeline/Timeline';
 import { useTranslation } from 'react-i18next';
+import AboutMe from './AboutMe';
 
 
 function HomePage() {
@@ -25,8 +26,9 @@ function HomePage() {
         <Timeline />
       </Container>
       
-      <Container>
+      <Container id='about_me' style={{paddingTop:'10vh'}}>
         <h1 className='section-title'>{t('section.about_me.title')}</h1>
+        <AboutMe />
       </Container>
     </>
   );

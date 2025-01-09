@@ -1,0 +1,19 @@
+{
+    "aboutMe": {
+      "title": "About Me",
+      "name": "Adrien LAROUSSE",
+      "age": "Age: {{age}} years",
+      "student": "Computer Science Student",
+      "location": "Location: Quebec (Province), Canada",
+      "resources": "Resources",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "resume": "🇫🇷 Download Resume (in French)",
+      "languages": "Languages",
+      "french": "French: Native",
+      "english": "English: Professional",
+      "german": "German: Beginner",
+      "skills": "Skills"
+    }
+  }
+  

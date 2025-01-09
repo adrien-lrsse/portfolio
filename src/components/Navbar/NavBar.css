@@ -29,3 +29,17 @@
     margin-right: 25px;
 }
 
+.language-dropdown{
+    background-color: #4464AD;
+    border-color: #4464AD;
+}
+
+.language-dropdown:hover{
+    background-color: #355297;
+    border-color: #355297;
+}
+
+.language-dropdown:focus{
+    background-color: #355297;
+    border-color: #355297;
+}

@@ -25,7 +25,7 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link className='portfolio-navbar-link' href="/#project">{t("projects")}</Nav.Link>
             <Nav.Link className='portfolio-navbar-link' href="/#timeline">{t("timeline")}</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="/#link">{t("about me")}</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#about_me">{t("about me")}</Nav.Link>
           </Nav>
           {/* <Button 
             className="ms-auto portfolio-navbar-button" 
@@ -37,7 +37,7 @@ function NavBar() {
             Download Resume
           </Button> */}
           <Dropdown>
-      <Dropdown.Toggle variant="primary" id="dropdown-basic">
+      <Dropdown.Toggle className='language-dropdown' id="dropdown-basic">
         {t("language")}
       </Dropdown.Toggle>
 

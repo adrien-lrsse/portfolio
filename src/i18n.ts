@@ -12,7 +12,7 @@ i18n
     },
     lng: 'fr',
     fallbackLng: 'fr',
-    ns: ['navbar', 'core_components', 'timeline', "projects"],
+    ns: ['navbar', 'core_components', 'timeline', "projects", "about_me"],
     defaultNS: 'common',
     interpolation: {
     escapeValue: false,
