@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import CompilerFR from "./fr/CompilerFR";
 import "./../../../components/Project/Project.css";
 import GitHubButton from "../../../components/Button/GitHubButton";
 import CompilerEN from "./en/CompilerEN";

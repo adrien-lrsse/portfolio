@@ -1,4 +1,4 @@
-import { Accordion, Badge, Card, Container, Image } from "react-bootstrap";
+import { Badge, Card, Container, Image } from "react-bootstrap";
 import structApp from './../assets/struct_app.png'
 import algoItineraireDistance from './../assets/algo_itineraire_distance.png'
 

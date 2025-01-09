@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import { IoIosArrowForward } from "react-icons/io";
 import "./viewStory.css";
 import { useTranslation } from "react-i18next";

@@ -1,6 +1,4 @@
 // project.ts
-import englishInvader from '../assets/english_invader.png';
-
 
 export interface Project {
     id: number;

@@ -5,7 +5,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import './TimeLineElement.css'
 
 import { useTranslation } from 'react-i18next';
-import { use } from 'i18next';
 
 interface VerticalTimelineElementLayoutProps {
     title: string;

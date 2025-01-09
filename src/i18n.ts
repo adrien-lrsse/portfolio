@@ -8,8 +8,8 @@ i18n
 .use(initReactI18next)
 .init({
     backend: {
-    loadPath: '/locales/{{lng}}/{{ns}}.json', // Chemin des fichiers
-    },
+    loadPath: `${import.meta.env.BASE_URL}/locales/{{lng}}/{{ns}}.json`, // Chemin dynamique
+        },
     lng: 'fr',
     fallbackLng: 'fr',
     ns: ['navbar', 'core_components', 'timeline', "projects", "about_me"],

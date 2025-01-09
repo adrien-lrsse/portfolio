@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap";
 import "./../../../components/Project/Project.css";
 import GitHubButton from "../../../components/Button/GitHubButton";
-import RoutePlannerEN from "./en/RoutePlannerEN";
 import RoutePlannerFR from "./fr/RoutePlannerFR";
 
 function RoutePlanner() {

@@ -12,7 +12,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <Suspense fallback="loading">
-      <Router>
+      <Router basename="/portfolio">
         <Routes>
           <Route path="/" element={<Layout><HomePage /></Layout>} />
           <Route path="*" element={<NotFound />} />
