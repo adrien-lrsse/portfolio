@@ -1,0 +1,46 @@
+{
+    "compiler" : {
+        "title" : "canAda",
+        "subtitle" : "Compilateur Java pour le langage Ada",
+        "date" : "Octobre 2023 - Mai 2024",
+        "description": "Ecriture d'un compilateur Ada en équipe de 4. Ecriture complète de la grammaire, de l'analyse lexicale, syntaxique et sémantique à la traduction en code assembleur ARM 32bit.",
+        "badges" : ["Java", "Équipe de 4", "Ada", "ARM 32bit"]
+    },
+    "route-planner" : {
+        "title" : "Planificateur de trajet en voiture électrique",
+        "subtitle" : "Projet d'algorithmique et de structure de données",
+        "date" : "Mars 2023 - Juin 2023",
+        "description": "Panification d'itinéraire pour voitures électriques. Projet en équipé dont le but est de prévoir un trajet optimisé qui prend en compte la charge de la batterie et les points de recharge. Simuluation de la congestion du réseau de recharge.",
+        "badges" : ["C", "Python & Flask", "HTML/CSS/JS", "Équipe de 4", "Algorithmique", "Structure de données"]
+    },
+    "english-invader" : {
+        "title" : "English Invader",
+        "date" : "Janvier 2024 - Mars 2024",
+        "description" : "Jeu vidéo pour apprendre l'anglais basé sur le principe du jeu Space Invader. Projet en équipe de 2. Les technologies pour ce projet étant libre, je m'en suis servi pour apprendre React et Node.js en autodidacte.",
+        "badges" : ["React", "Node.js", "Équipe de 2", "Frontend / Backend"]
+    },
+    "direct-dealing" : {
+        "title" : "Direct Dealing",
+        "date" : "Janvier 2024",
+        "description" : "Logiciel de vente de bien et de service entre particuliers. Ce projet a été réalisé en équipe de 4 dans le cadre d'un challenge scolaire sur une semaine.",
+        "badges" : ["JavaFX", "Architecture MVC", "Équipe de 4"]
+    },
+    "aoc-2023" : {
+        "title" : "Advent of Code 2023",
+        "date" : "Décembre 2023",
+        "description" : "Participation à l'Advent of Code 2023. Challenge de programmation de 25 jours avec des problèmes de difficulté croissante. J'ai utilisé ce défi pour apprendre le language Go. Nombre de défis réalisé : 13/25.",
+        "badges" : ["Golang", "Algorithmique"]
+    },
+    "shared-garden": {
+        "title": "Jardin partagé",
+        "date": "Octobre 2022 - Janvier 2023",
+        "description": "Site web de partage de jardin entre particuliers. Projet en équipe de 3. Développement en Python avec le framework Flask.",
+        "badges": ["Python & Flask", "BDD", "HTML / CSS", "Javascript", "Équipe de 3"]
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "date": "Janvier 2025",
+        "description": "Site web de présentation de mes projets. Projet personnel. Développement en React.",
+        "badges": ["React / Vite", "HTML / CSS", "Typescrypt", "Frontend"]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "udes" : {
+        "title" : "Master's Degree in Software Engineering",
+        "date" : "2024 - present",
+        "subtitle" : "Université de Sherbrooke, Quebec",
+        "content" : "Dual degree with Télécom Nancy. Advanced studies in software engineering, development, and project management.",
+        "details" : {
+            "fall" : {
+                "title" : "Fall 2024",
+                "list" : {
+                    "1" : "Formal Methods in Software Engineering",
+                    "2" : "Internet Applications and Mobility",
+                    "3" : "Data Science",
+                    "4" : "Distributed and Multi-Agent Systems"
+                }
+            },
+            "winter" : {
+                "title" : "Winter 2025",
+                "list" : {
+                    "1" : "Project Management",
+                    "2" : "Development Techniques and Tools",
+                    "3" : "Object-Oriented Approaches",
+                    "4" : "Advanced Topics in Databases"
+                }
+            }
+        }
+    },
+    "actuelburo" : {
+        "title" : "Cross-Platform Mobile Application Developer - Intern",
+        "date" : "Summer 2023",
+        "subtitle" : "ActualBuro, Dax, France",
+        "content" : "Developed proof of concepts using React Native and Flutter for a comparative study to explore new opportunities for the company.",
+        "details" : {
+            "tasks" : {
+                "title" : "Tasks Completed",
+                "list" : {
+                    "1" : "Conducted a state-of-the-art review on mobile application development",
+                    "2" : "Developed proof of concepts using React Native and Flutter",
+                    "3" : "Compared the proof of concepts",
+                    "4" : "Set up a mono-repository and integrated it with Flutter"
+                }
+            },
+            "learnings" : {
+                "title" : "Learnings",
+                "list" : {
+                    "1" : "Frameworks: React Native and Flutter",
+                    "2" : "Mono-Repository Architecture"
+                }
+            }
+        }
+    },
+    "tncy" : {
+        "title" : "Computer Engineering Degree",
+        "date" : "2022 - present",
+        "subtitle" : "Télécom Nancy, France",
+        "content" : "Advanced studies in Internet Security and Networks. Explored various fields of computer science: software development, AI, image processing...",
+        "details" : {
+            "courses" : {
+                "title" : "Key Courses",
+                "list" : {
+                    "1" : "Compiler Course",
+                    "2" : "CS54: Algorithms, Web Programming & Databases",
+                    "3" : "Data Structures and C Programming",
+                    "4" : "Object-Oriented Programming",
+                    "5" : "Design Methods and Tools"
+                }
+            }
+        }
+    },
+    "toeic" : {
+        "title" : "TOEIC Certification",
+        "date" : "January 2023",
+        "subtitle" : "910/990",
+        "content" : "",
+        "details" : {
+            "description" : {
+                "title" : "What is TOEIC?",
+                "content" : "TOEIC (Test of English for International Communication) measures English proficiency in professional contexts."
+            },
+            "score" : {
+                "title" : "Score Explanation",
+                "list" : {
+                    "1" : "Level B2 in Europe",
+                    "2" : "Equivalent to 4.5/5"
+                }
+            }
+        }
+    },
+    "cpge" : {
+        "title" : "Preparatory Class for Engineering Schools - Maths/Physics Track",
+        "date" : "September 2020 - June 2022",
+        "subtitle" : "Lycée Michel de Montaigne, Bordeaux, France",
+        "content" : "Prepared for national exams to join a computer engineering school."
+    }
+    
+}
