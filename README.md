@@ -1,1 +1,42 @@
-# portfolio
+# Portfolio
+## About the Project
+This project highlights my development work, featuring various projects and contributions. It is crafted with modern web technologies. The portfolio also presents my educational background and is accessible at [adrien-lrsse.github.io/portfolio](https://adrien-lrsse.github.io/portfolio).
+
+## Features
+
+- Various project examples
+- Curriculum
+- Some information about me
+- Responsive design
+
+## Technologies Used
+
+<div align="center">
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript">
+    <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</div>
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/adrien-lrsse/portfolio.git
+    ```
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+3. Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+## Contact
+
+Feel free to reach out if you have any questions or suggestions!
+- LinkedIn: [linkedin.com/in/adrienlarousse/](https://www.linkedin.com/in/adrienlarousse)
+- GitHub: [github.com/adrien-lrsse](https://github.com/adrien-lrsse)
