@@ -1,4 +1,7 @@
 # Portfolio
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+
 ## About the Project
 This project highlights my development work, featuring various projects and contributions. It is crafted with modern web technologies. The portfolio also presents my educational background and is accessible at [adrien-lrsse.github.io/portfolio](https://adrien-lrsse.github.io/portfolio).
 
