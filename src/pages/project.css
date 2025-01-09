@@ -26,3 +26,10 @@
     background-color: white;
     color: #4464AD;
 }
+
+.stack-badge {
+  background-color: #4464AD; /* Custom background color */
+  color: #fff; /* Ensure text is readable */
+  padding: 0.5em 0.75em;
+  border-radius: 0.5rem;
+}

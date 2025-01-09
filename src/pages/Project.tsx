@@ -16,7 +16,7 @@ function Project() {
             date: t('compiler.date'),
             description: t('compiler.description'),
             link: "https://github.com/adrien-lrsse/canAda-compiler",
-            story: "/project/compiler",
+            story: "",
             badges: t('compiler.badges', { returnObjects: true }) // Ajout de `returnObjects: true`
         },
         {
@@ -25,7 +25,7 @@ function Project() {
             date: t('route-planner.date'),
             description: t('route-planner.description'),
             link: "https://github.com/adrien-lrsse/route-planner-for-electric-cars",
-            story: "/project/route-planner",
+            story: "",
             badges: t('route-planner.badges', { returnObjects: true })
         },
         {
@@ -84,7 +84,7 @@ function Project() {
                         <Card.Body className="card-body">
                             <div className="d-flex flex-wrap">
                             {Array.isArray(project.badges) && project.badges.map((badge, index: number) => (
-                                <Badge key={index} bg='#4464AD' className='stack-badge my-1'>{badge}</Badge>
+                                <Badge key={index} bg='#4464AD' className='stack-badge m-1'>{badge}</Badge>
                                 ))}
                             </div>
                             <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>

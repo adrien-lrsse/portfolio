@@ -1,36 +1,25 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css'
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./pages/HomePage";
 import Layout from "./context/Layout";
-import ProjectLayout from "./components/Project/ProjectLayout";
-import Compiler from "./content/projects/compiler/Compiler";
-import RoutePlanner from "./content/projects/route_planner/RoutePlanner";
 import { Suspense } from "react";
 
 // Language Translation
 import './i18n';
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <Suspense fallback="loading">
-    <Router>
-      <Layout>
+      <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<Layout><HomePage /></Layout>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-        <ProjectLayout>
-          <Routes>
-            <Route path="/project/compiler" element={<Compiler />} />
-            <Route path="/project/route-planner" element={<RoutePlanner />} />
-          </Routes>
-        </ProjectLayout>
-      </Layout>
-    </Router>
+      </Router>
     </Suspense>
   );
-  
-  
 }
 
-export default App
+export default App;
