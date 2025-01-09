@@ -23,5 +23,9 @@
         "about_me": {
             "title": "About me"
         }
+    },
+    "footer": {
+        "last_update": "Last update: January 2025",
+        "code": "Portfolio code available on"
     }
 }

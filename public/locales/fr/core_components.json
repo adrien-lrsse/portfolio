@@ -23,5 +23,9 @@
         "about_me" : {
             "title" : "À propos de moi"
         }
+    },
+    "footer": {
+        "last_update": "Dernière mise à jour : Janvier 2025",
+        "code": "Code du portfolio disponible sur"
     }
 }
