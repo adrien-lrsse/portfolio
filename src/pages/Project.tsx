@@ -84,7 +84,7 @@ function Project() {
                         <Card.Body className="card-body">
                             <div className="d-flex flex-wrap">
                             {Array.isArray(project.badges) && project.badges.map((badge, index: number) => (
-                                <Badge key={index} bg='#4464AD' className='stack-badge m-1'>{badge}</Badge>
+                                <Badge key={index} bg='#4464AD' className='stack-badge m-1 ms-0'>{badge}</Badge>
                                 ))}
                             </div>
                             <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>
