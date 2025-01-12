@@ -118,7 +118,7 @@ function Timeline() {
         detail={
           <>
             <Container className='py-3'>
-          <Image src="https://i.namu.wiki/i/KvAxHz6vdadyTJIvyqzdBa0e0DAIou8zlKzQL9PMyX86NgRFnoBNfBXeWBvR5fKd0P_yZ3fh7mFaq_79fdfICVNNOFaJMZBWxvqcujTo49A-hyXTityFDW0YV0P1groCfQVJSUGtvXtWEkq2-sI5rQ.svg" 
+          <Image src="/portfolio/assets/toeic.jpg" 
               alt="TOEIC" 
               style={{ width: '100%', marginBottom: '15px' }} /> 
             </Container>
