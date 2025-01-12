@@ -49,7 +49,7 @@ function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, d
         >
             <div className="d-flex flex-wrap">
             {badges && badges.map((badge, index) => (
-                                    <Badge key={index} bg='#4464AD' className='stack-badge m-1'>{badge}</Badge>
+                                    <Badge key={index} bg='#4464AD' className='stack-badge m-1 ms-0'>{badge}</Badge>
                                 ))}
             </div>
             <h3 className="mb-2">{title}</h3>
