@@ -24,7 +24,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-                src="https://media1.ledevoir.com/image/759705.jpg?ts=1664611289" 
+                src="/portfolio/assets/udes.jpg" 
                 alt="Université de Sherbrooke" 
                 style={{ width: '100%', marginBottom: '15px' }} 
               />
@@ -59,7 +59,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-          src="https://www.francebleu.fr/s3/cruiser-production/2020/12/0f22fae5-fe43-4945-ae5e-2095a849e6e7/600_actuelburo_2.jpg" 
+          src="/portfolio/assets/actuelburo.jpg" 
           alt="ActualBuro" 
           style={{ width: '100%', marginBottom: '15px' }} 
               />
@@ -91,7 +91,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-          src="https://telecomnancy.univ-lorraine.fr/wp-content/uploads/2023/09/IMG_4695-edited-scaled.jpeg" 
+          src="/portfolio/assets/tncy.jpeg" 
           alt="Télécom Nancy" 
           style={{ width: '100%', marginBottom: '15px' }} 
               />
