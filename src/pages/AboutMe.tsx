@@ -47,7 +47,7 @@ function AboutMe() {
                             />
                             {t("aboutMe.linkedin")}
                         </Button>
-                        <a href="https://drive.google.com/file/d/1t6rxC3Ibm4uO5dGkF3qHJribM76Ri5OL/view?usp=sharing" download target="_blank">
+                        <a href={t('aboutMe.resume_link')} download target="_blank">
                             <Button variant='warning' className="m-2">
                                 {t("aboutMe.resume")}
                             </Button>
