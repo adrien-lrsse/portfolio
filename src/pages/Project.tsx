@@ -64,8 +64,17 @@ function Project() {
             story: "",
             badges: t('shared-garden.badges', { returnObjects: true })
         },
-        {
+        { 
             id: 8,
+            title: t('smart-greenhouse.title'),
+            date: t('smart-greenhouse.date'),
+            description: t('smart-greenhouse.description'),
+            link: "https://github.com/adrien-lrsse/smart-greenhouse",
+            story: "",
+            badges: t('smart-greenhouse.badges', { returnObjects: true })
+        },
+        {
+            id: 9,
             title: t('portfolio.title'),
             date: t('portfolio.date'),
             description: t('portfolio.description'),

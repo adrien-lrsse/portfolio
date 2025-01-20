@@ -37,6 +37,12 @@
         "description": "Site web de partage de jardin entre particuliers. Projet en équipe de 3. Développement en Python avec le framework Flask.",
         "badges": ["Python & Flask", "BDD", "HTML / CSS", "Javascript", "Équipe de 3"]
     },
+    "smart-greenhouse": {
+        "title": "Serre intelligente",
+        "date": "Octobre 2024 - Décembre 2024",
+        "description": "Modélisation d'une serre intelligente, réalisation d'un modèle architectural. Utilisation de OpenHab pour la gestion de la serre, des capteurs et des effecteurs.",
+        "badges":["IoT", "Raspberry Pi", "OpenHab", "Équipe de 4", "MQTT"]
+    },
     "portfolio": {
         "title": "Portfolio",
         "date": "Janvier 2025",
