@@ -37,6 +37,12 @@
         "description": "Website for sharing gardens between individuals. Team project of 3. Development in Python with the Flask framework.",
         "badges": ["Python & Flask", "Database", "HTML / CSS", "Javascript", "Team of 3"]
     },
+    "smart-greenhouse": {
+        "title": "Smart Greenhouse",
+        "date": "October 2024 - December 2024",
+        "description": "Modeling of a smart greenhouse, creating an architectural model. Using OpenHab for managing the greenhouse, sensors, and actuators.",
+        "badges":["IoT", "Raspberry Pi", "OpenHab", "Team of 4", "MQTT"]
+    },
     "portfolio": {
         "title": "Portfolio",
         "date": "January 2025",
