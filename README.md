@@ -10,6 +10,7 @@ This project highlights my development work, featuring various projects and cont
 - Various project examples
 - Curriculum
 - Some information about me
+- Usefull links
 - Responsive design
 
 ## Technologies Used
